@@ -29,6 +29,21 @@ main {
         margin-top: 20px;
     }
 
+    #search-container {
+        display: flex;
+        justify-content: center;
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 3px;
+            width: 360px;
+            height: 46px;
+            border: 1px solid #9aa0a6;
+        }
+    }
+
     #search-icon {
         color: #9aa0a6;
         height: 20px;
