@@ -71,6 +71,12 @@ main #keyboard-icon {
   color: #222;
   height: 20px;
   width: 20px;
+  margin-right: 5px;
+}
+main #mic-icon {
+  color: blue;
+  height: 20px;
+  width: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
