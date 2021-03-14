@@ -82,7 +82,7 @@ main #microphone-icon {
   height: 20px;
 }
 main #buttons-container {
-  margin-top: 30px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
 }
@@ -104,6 +104,12 @@ main #buttons-container input {
 }
 main #buttons-container input:first-child {
   margin-right: 10px;
+}
+main #buttons-container input:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
 }
 
 /*# sourceMappingURL=styles.css.map */

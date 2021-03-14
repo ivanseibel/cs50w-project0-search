@@ -98,7 +98,7 @@ main {
     }
 
     #buttons-container {
-        margin-top: 30px;
+        margin-top: 25px;
         display: flex;
         justify-content: center;
 
@@ -121,6 +121,13 @@ main {
 
         input:first-child{
             margin-right: 10px;
+        }
+
+        input:hover {
+            box-shadow: 0 1px 1px rgba(0,0,0,.1);
+            background-color: #f8f9fa;
+            border: 1px solid #dadce0;
+            color: #202124;
         }
     }
 }
