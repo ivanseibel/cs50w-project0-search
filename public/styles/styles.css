@@ -6,7 +6,7 @@ main header {
   display: flex;
   align-items: flex-end;
 }
-main header:first-child {
+main header a:first-child {
   margin-right: 10px;
 }
 
