@@ -36,9 +36,7 @@ main {
     }
 
     #search-container {
-        // display: flex;
-        position: relative;
-        margin: 0 auto;
+        display: flex;
         justify-content: center;
 
         div {
@@ -46,7 +44,7 @@ main {
             justify-content: space-around;
             align-items: center;
             padding: 0 16px;
-            width: auto;
+            width: 100%;
             max-width: 584px;
             height: 46px;
             border: 1px solid #9aa0a6;
