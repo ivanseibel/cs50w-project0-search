@@ -32,7 +32,7 @@ main #search-container div {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 3px;
+  padding: 8px 16px;
   width: 360px;
   height: 46px;
   border: 1px solid #9aa0a6;
