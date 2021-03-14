@@ -22,10 +22,16 @@ main {
         }
     }
 
-    #logo {
+    #logo-container {
         display: flex;
         width: 100%;
         justify-content: center;
         margin-top: 20px;
+    }
+
+    #search-icon {
+        color: #9aa0a6;
+        height: 20px;
+        width: 20px;
     }
 }
