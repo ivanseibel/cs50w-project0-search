@@ -28,6 +28,9 @@ main header a {
   color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
 }
+main header a:hover {
+  text-decoration: underline;
+}
 main #logo-container {
   display: flex;
   width: 100%;
