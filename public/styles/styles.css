@@ -75,6 +75,7 @@ main #search-icon {
 }
 main #keyboard-icon {
   color: #222;
+  height: 24px;
   margin-right: 15px;
 }
 main #microphone-icon {
