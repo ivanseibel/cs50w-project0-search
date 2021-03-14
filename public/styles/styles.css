@@ -84,7 +84,7 @@ main #microphone-icon {
 main #buttons-container {
   margin-top: 30px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 main #buttons-container input {
   background-color: #f8f9fa;
@@ -101,6 +101,9 @@ main #buttons-container input {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+main #buttons-container input:first-child {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
