@@ -16,8 +16,15 @@ body {
   left: 0;
   right: 0;
   overflow: hidden;
-  z-index: -1;
-  /* Remove this line if it's not going to be a background! */
+  display: flex;
+  flex-direction: column;
+}
+#cloud-container header {
+  display: flex;
+  align-items: flex-end;
+}
+#cloud-container header:first-child {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

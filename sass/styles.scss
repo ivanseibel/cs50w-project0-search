@@ -13,5 +13,15 @@ body {
     left:0;
     right:0;
     overflow:hidden;
-    z-index:-1; /* Remove this line if it's not going to be a background! */
+    display: flex;
+    flex-direction: column;
+
+    header {
+        display: flex;
+        align-items: flex-end;
+
+        &:first-child {
+            margin-right: 10px;
+        }
+    }
 }
