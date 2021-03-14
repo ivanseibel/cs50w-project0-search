@@ -50,7 +50,7 @@ main #search-container div:hover {
   border-color: rgba(223, 225, 229, 0);
 }
 main #search-container div input {
-  margin-left: 10px;
+  margin: 0 10px;
   border: none;
   background-color: transparent;
   padding: 0;
