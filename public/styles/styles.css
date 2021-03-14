@@ -36,7 +36,7 @@ main #search-container div {
   width: 360px;
   height: 46px;
   border: 1px solid #9aa0a6;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 main #search-container div input {
   width: 100%;
