@@ -33,6 +33,7 @@ main #logo-container {
 main #search-container {
   display: flex;
   justify-content: center;
+  display: flex;
 }
 main #search-container div {
   display: flex;
