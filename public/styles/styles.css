@@ -28,7 +28,7 @@ main #logo-container {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 main #search-container {
   display: flex;
