@@ -31,9 +31,9 @@ main #logo-container {
   margin: 20px 0;
 }
 main #search-container {
-  display: flex;
+  position: relative;
+  margin: 0 auto;
   justify-content: center;
-  display: flex;
 }
 main #search-container div {
   display: flex;
