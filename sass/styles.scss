@@ -4,10 +4,19 @@ main {
 
     header {
         display: flex;
-        align-items: flex-end;
+        justify-content: flex-end;
 
         a:first-child {
             margin-right: 10px;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
         }
     }
 }
