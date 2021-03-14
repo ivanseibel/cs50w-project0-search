@@ -13,9 +13,13 @@ main {
 main header {
   display: flex;
   justify-content: flex-end;
+  padding: 20px 0 0;
 }
 main header a:first-child {
   margin-right: 10px;
+}
+main header a:last-child {
+  margin-right: 20px;
 }
 main header a:visited {
   color: #609;
@@ -42,7 +46,7 @@ main #search-container div {
   width: 100%;
   max-width: 584px;
   height: 46px;
-  border: 1px solid #9aa0a6;
+  border: 1px solid #dfe1e5;
   border-radius: 24px;
   margin: 0 auto;
 }
