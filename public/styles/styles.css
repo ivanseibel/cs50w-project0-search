@@ -37,6 +37,10 @@ main #logo-container {
   justify-content: center;
   margin: 30px 0;
 }
+main form {
+  background-color: #9aa0a6;
+  height: 100%;
+}
 main #search-container {
   display: flex;
   justify-content: center;
