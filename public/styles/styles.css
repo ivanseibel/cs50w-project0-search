@@ -13,10 +13,10 @@ main {
 main header {
   display: flex;
   justify-content: flex-end;
-  padding: 20px 0 0;
-  height: 48px;
+  align-items: center;
+  height: 60px;
 }
-main header a:first-child {
+main header a {
   margin-right: 10px;
 }
 main header a:last-child {
@@ -34,7 +34,7 @@ main header a:hover {
 }
 main #content-container {
   display: flex;
-  height: calc(100% - (48px * 2));
+  height: calc(100% - (60px * 2));
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -45,6 +45,21 @@ main #logo-container {
   width: 100%;
   justify-content: center;
   margin: 30px 0;
+}
+main #logo-container-images {
+  background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 272px 92px;
+  height: 92px;
+  width: 272px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+main #logo-container-images span {
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  color: #4285f4;
 }
 main form {
   width: 100%;

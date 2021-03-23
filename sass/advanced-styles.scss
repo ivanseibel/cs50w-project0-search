@@ -1,0 +1,92 @@
+$header-height: 60px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 13px;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // padding: 20px 0 0;
+        height: $header-height;
+        background: #f1f1f1;
+
+        #header-logo-container {
+          max-width: 152px;
+          min-width: 152px;
+          height: 60px;
+          line-height: 58px;
+          vertical-align: middle;
+          margin-left: 0!important;
+          margin-right: 0!important;
+          display: flex;
+
+          div {
+            position: absolute;
+            padding: 0 20px 0 15px;
+
+            a {
+              position: relative;
+              top: 2px;
+              display: inline-block;
+              line-height: 0;
+              outline: none;
+              vertical-align: middle;
+
+              span {
+                background-position: 0 -35px;
+                height: 33px;
+                width: 92px;
+                background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+                background-size: 528px 68px;
+                display: block;
+              }
+            }
+          }
+          
+        }
+
+        #header-links-container {
+          display: flex;
+          justify-content: flex-end;
+          a {
+              margin-right: 10px;
+          }
+  
+          a:last-child {
+              margin-right: 20px;
+          }
+  
+          a:visited {
+              color: #609;
+          }
+  
+          a {
+              color: rgba(0,0,0,0.87);
+              text-decoration: none;
+          }
+  
+          a:hover {
+              text-decoration: underline;
+          }
+        }
+    }
+
+    #content-container {
+      display: flex;
+      height: calc(100% - (#{$header-height} * 2));
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+}
