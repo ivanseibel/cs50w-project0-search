@@ -23,8 +23,91 @@
                     <a href="#">Advanced</a>
                 </div>
             </header>
-            <div id="content-container">
+            
+            <div class="app-bar">
+                <label>
+                    Advanced Search
+                </label>
+            </div>
+            
+            <div class="horizontal-line"></div>
+
+            <div class="content-container">
+                <form action="/search" id="s1zaZb" method="GET" name="f">
+                    <div class="grid-wrapper">
+                        <!-- header -->
+                        <div class="form-col1-header">
+                            <span>Find pages with...</span>
+                        </div>
+                        <div class="form-col2-header"></div>
+                        <div class="form-col3-header">
+                            <div>Do this in the search box.</div>
+                        </div>
+                        <!-- first input -->
+                        <div class="form-col1">
+                            <label for="all-words">
+                                all of these words:
+                            </label> 
+                        </div>
+                        <div class="form-col2">
+                            <input value="" autofocus="autofocus" id="all-words" name="as_q" type="text">
+                        </div>
+                        <div class="form-col3">
+                            <div>Write the important words:</div> <span>rat terrier terrific</span>
+                        </div>
+                        <!-- second input -->
+                        <div class="form-col1">
+                            <label for="all-words">
+                                this exact word or phrase:
+                            </label> 
+                        </div>
+                        <div class="form-col2">
+                            <input value="" autofocus="autofocus" id="all-words" name="as_q" type="text">
+                        </div>
+                        <div class="form-col3">
+                            <div>Enclose the exact words in quotation marks:</div> <span>"rat terrier"</span>
+                        </div>
+                        <!-- third input -->
+                        <div class="form-col1">
+                            <label for="all-words">
+                                any of these words:
+                            </label> 
+                        </div>
+                        <div class="form-col2">
+                            <input value="" autofocus="autofocus" id="all-words" name="as_q" type="text">
+                        </div>
+                        <div class="form-col3 in-column">
+                            <div>Type OR among all the words you want:</div> <span>miniature OR standard</span>
+                        </div>
+                        <!-- fourth input -->
+                        <div class="form-col1">
+                            <label for="all-words">
+                                none of these words:
+                            </label> 
+                        </div>
+                        <div class="form-col2">
+                            <input value="" autofocus="autofocus" id="all-words" name="as_q" type="text">
+                        </div>
+                        <div class="form-col3 in-column">
+                            <div>Put a minus sign immediately before the unwanted words:</div> <span>-roedor, - "Jack Russell"</span>
+                        </div>
+                        <!-- search button -->
+                        <div class="form-col1"></div>
+                        <div class="form-col2">
+                            <div class="submit-button-container">
+                                <input type="button" value="Advanced search" class="submit-button">
+                            </div>
+                        </div>
+                        <div class="form-col3"></div>
+                    </div>
+                </form>
             </div>
         </main>
     </body>
 </html>
+
+<!-- TODO: Implement following fields to search
+- Find pages with… “all these words:”
+- Find pages with… “this exact word or phrase:”
+- Find pages with… “any of these words:”
+- Find pages with… “none of these words:” -->

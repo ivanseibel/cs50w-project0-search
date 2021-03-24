@@ -9,6 +9,7 @@ main {
   width: 100vw;
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 13px;
+  min-width: 370px;
 }
 main header {
   display: flex;
@@ -34,7 +35,7 @@ main header a:hover {
 }
 main #content-container {
   display: flex;
-  height: calc(100% - (60px * 2));
+  height: calc(100% - (60px * 4));
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -68,6 +69,11 @@ main #search-container {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+@media (max-width: 620px) {
+  main #search-container {
+    padding: 0 10px;
+  }
 }
 main #search-container div {
   display: flex;
