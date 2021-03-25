@@ -1,5 +1,9 @@
 # cs50w-project0-search
-Front-end design for Google Search, Google Image Search, and Google Advanced Search.
+Front-end design for Google Search, Google Image Search, and Google Advanced Search. 
+
+## Status: FINISHED 🎉🎉🎉
+
+[Demo page](https://ivanseibel.github.io/cs50w-project0-search/)
 
 # Project 0
 
