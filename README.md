@@ -1,17 +1,12 @@
-# cs50w-project0-search
-Front-end design for Google Search, Google Image Search, and Google Advanced Search. 
+# **Project 0 - Google Search Clone**
+
+Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
 
 ## Status: FINISHED 🎉🎉🎉
 
 [Demo page](https://ivanseibel.github.io/cs50w-project0-search/)
 
-# Project 0 - Google Search Clone
-
-# **[Search](https://cs50.harvard.edu/web/2020/projects/0/search/#search)**
-
-Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
-
-## **[Background](https://cs50.harvard.edu/web/2020/projects/0/search/#background)**
+## **Background**
 
 Recall from lecture that we can create an HTML form using a `<form>` tag and can add `<input>` tags to create input fields for that form. Later in the course, we’ll see how to write web applications that can accept form data as input. For this project, we’ll write forms that send data to an existing web server: in this case, Google’s.
 
@@ -54,11 +49,11 @@ How did that work? In this case, the `action` attribute on the `form` told t
 
 Your task in this project is to expand on this site, creating your own front end for Google Search, as by exploring Google’s interface to identify what GET parameters it expects and adding the necessary HTML and CSS to your website.
 
-## **[Getting Started](https://cs50.harvard.edu/web/2020/projects/0/search/#getting-started)**
+## **Getting Started**
 
 - Download the distribution code from [https://cdn.cs50.net/web/2020/spring/projects/0/search.zip](https://cdn.cs50.net/web/2020/spring/projects/0/search.zip) and unzip it.
 
-## **[Specification](https://cs50.harvard.edu/web/2020/projects/0/search/#specification)**
+## **Specification**
 
 Your website must meet the following requirements.
 
@@ -77,7 +72,7 @@ Your website must meet the following requirements.
 - **Lucky**. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
 - **Aesthetics**. The CSS you write should match Google’s own aesthetics as best as possible.
 
-## **[Hints](https://cs50.harvard.edu/web/2020/projects/0/search/#hints)**
+## **Hints**
 
 - To determine what the parameter names should be, you’re welcome to experiment with making Google searches, and looking at the resulting URL. It may also be helpful to open the “Network” inspector (accessible in Google Chrome by choosing View -> Developer -> Developer Tools) to view details about requests your browser makes to Google.
     - Any `<input>` element (whether its `type` is `text`, `submit`, `number`, or something else entirely) can have `name` and `value` attributes that will become GET parameters when a form is submitted.
