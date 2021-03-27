@@ -5,7 +5,7 @@ Front-end design for Google Search, Google Image Search, and Google Advanced Sea
 
 [Demo page](https://ivanseibel.github.io/cs50w-project0-search/)
 
-# Project 0
+# Project 0 - Google Search Clone
 
 # **[Search](https://cs50.harvard.edu/web/2020/projects/0/search/#search)**
 
